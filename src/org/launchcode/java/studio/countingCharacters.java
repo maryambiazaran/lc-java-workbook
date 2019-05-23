@@ -104,12 +104,12 @@ public class countingCharacters {
 
     public static void main (String[] args) throws IOException {
 
-        System.out.println("-------------------------");
-        System.out.println("Here is your options:");
-        System.out.println("-------------------------");
-        System.out.println("1 - Read from file");
-        System.out.println("2 - Use the fixed TEXT");
-        System.out.println("3 - Enter the text here");
+        System.out.println("-------------------------"  );
+        System.out.println("Here is your options:"      );
+        System.out.println("-------------------------"  );
+        System.out.println("1 - Read from file"         );
+        System.out.println("2 - Use the fixed TEXT"     );
+        System.out.println("3 - Enter the text here"    );
 
         Scanner userPrompt = new Scanner(System.in);
         String choice = userPrompt.next();
